@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/leoblogclient/static/css/main.ef4451aa.css",
-    "main.js": "/leoblogclient/static/js/main.512dae08.js",
+    "main.js": "/leoblogclient/static/js/main.ff9f765f.js",
     "static/media/moon.png": "/leoblogclient/static/media/moon.c0372f5492812547889c.png",
     "static/media/web.png": "/leoblogclient/static/media/web.c0cb2cc13791a26822d3.png",
     "static/media/bg.jpeg": "/leoblogclient/static/media/bg.1a97868b8d7bffa37e83.jpeg",
@@ -11,10 +11,10 @@
     "static/media/creator.png": "/leoblogclient/static/media/creator.f8923ce18390029928ac.png",
     "index.html": "/leoblogclient/index.html",
     "main.ef4451aa.css.map": "/leoblogclient/static/css/main.ef4451aa.css.map",
-    "main.512dae08.js.map": "/leoblogclient/static/js/main.512dae08.js.map"
+    "main.ff9f765f.js.map": "/leoblogclient/static/js/main.ff9f765f.js.map"
   },
   "entrypoints": [
     "static/css/main.ef4451aa.css",
-    "static/js/main.512dae08.js"
+    "static/js/main.ff9f765f.js"
   ]
 }
