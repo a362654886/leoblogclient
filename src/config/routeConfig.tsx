@@ -1,5 +1,5 @@
 import BlogPage from "../pages/BlogPage/BlogPage";
-import { Outlet, RouteObject } from "react-router-dom";
+import { Navigate, Outlet, RouteObject } from "react-router-dom";
 import SubAboutMeComponent from "../pages/HomePage/components/subAboutMe/SubAboutMeComponent";
 import SubBlogsComponent from "../pages/HomePage/components/subBlogs/SubBlogsPageComponent";
 import SubHomeComponent from "../pages/HomePage/components/subHome/SubHomePageComponent";
@@ -7,6 +7,10 @@ import BlogAddPage from "../pages/BlogAddPage/BlogAddPage";
 import BlogUpdatePage from "../pages/BlogUpdatePage/BlogUpdatePage";
 
 export const routes: RouteObject[] = [
+  {
+    path: '*',
+    element: <Navigate to='/leoblogclient' replace />
+  },
   {
     path: "/leoblogclient",
     element: <Outlet />,
