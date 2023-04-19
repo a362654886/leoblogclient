@@ -8,10 +8,6 @@ import BlogUpdatePage from "../pages/BlogUpdatePage/BlogUpdatePage";
 
 export const routes: RouteObject[] = [
   {
-    path: '*',
-    element: <Navigate to='/leoblogclient' replace />
-  },
-  {
     path: "/leoblogclient",
     element: <Outlet />,
     children: [
