@@ -35,7 +35,7 @@ const BlogAddPage: FC = () => {
       variables: { title: title, context: html, types: typeIds },
     })
       .then((r) => {
-        history(`/blogs/null`);
+        history(`/leoblogclient/blogs/null`);
       })
       .catch((error) => {
         console.log(error);

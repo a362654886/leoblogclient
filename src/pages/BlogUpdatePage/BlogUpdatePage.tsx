@@ -53,7 +53,7 @@ const BlogUpdatePage: FC = () => {
       },
     })
       .then((r) => {
-        history(`/blogs/null`);
+        history(`/leoblogclient/blogs/null`);
       })
       .catch((error) => {
         console.log(error);

@@ -1,6 +1,6 @@
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { Suspense } from "react";
-import Earth from "./Earth";
+import ThreeJsModal from "../../subHome/components/ThreeJsModal";
 
 const EarthCanvas = () => {
   return (
@@ -9,7 +9,7 @@ const EarthCanvas = () => {
       <ambientLight intensity={0.1} />
       <directionalLight position={[3, 2, 1]} intensity={2} />
       <Suspense fallback={null}>
-        <Earth scale={[3, 3, 3]} />
+        <ThreeJsModal />
       </Suspense>
     </>
   );

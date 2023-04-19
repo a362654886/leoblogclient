@@ -6,7 +6,8 @@
     "@apollo/client": "^3.7.10",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "@mui/material": "^5.11.12",
+    "@mui/material": "^5.12.1",
+    "@mui/types": "^7.2.4",
     "@react-three/drei": "^9.65.3",
     "@react-three/fiber": "^8.12.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -62,5 +63,5 @@
     "@types/styled-components": "^5.1.26",
     "gh-pages": "^5.0.0"
   },
-  "homepage": "https://a362654886.github.io"
+  "homepage": "https://a362654886.github.io/leoblogclient"
 }

@@ -30,7 +30,7 @@ const SideBarComponent: FC = () => {
 
   const { addPostTypeFunction } = useAddPostType();
 
-  const ToPostType = (blogId: string) => history(`/blogs/${blogId}`);
+  const ToPostType = (blogId: string) => history(`/leoblogclient/blogs/${blogId}`);
 
   const submitNewType = () => {
     addPostTypeFunction({

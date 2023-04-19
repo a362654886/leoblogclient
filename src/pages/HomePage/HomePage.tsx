@@ -13,7 +13,7 @@ interface HomePageProps {
 const HomePage: FC<HomePageProps> = (props) => {
   const history = useNavigate();
 
-  const subPages = ["", "blogs/null", "aboutMe"];
+  const subPages = ["leoblogclient", "leoblogclient/blogs/null", "leoblogclient/aboutMe"];
 
   const [value] = useState(props.state);
 

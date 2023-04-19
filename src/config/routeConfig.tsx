@@ -8,16 +8,16 @@ import BlogUpdatePage from "../pages/BlogUpdatePage/BlogUpdatePage";
 
 export const routes: RouteObject[] = [
   {
-    path: "/",
+    path: "/leoblogclient",
     element: <Outlet />,
     children: [
       {
         index: true,
         element: <SubHomeComponent />,
       },
-      { path: "aboutMe", element: <SubAboutMeComponent /> },
+      { path: "/leoblogclient/aboutMe", element: <SubAboutMeComponent /> },
       {
-        path: "blogs",
+        path: "/leoblogclient/blogs",
         element: <Outlet />,
         children: [
           {
@@ -30,7 +30,7 @@ export const routes: RouteObject[] = [
     ],
   },
   {
-    path: "blog",
+    path: "/leoblogclient/blog",
     element: <Outlet />,
     children: [
       {
@@ -40,11 +40,11 @@ export const routes: RouteObject[] = [
     ],
   },
   {
-    path: "addBlog",
+    path: "/leoblogclient/addBlog",
     element: <BlogAddPage />,
   },
   {
-    path: "updateBlog",
+    path: "/leoblogclient/updateBlog",
     element: <Outlet />,
     children: [
       {

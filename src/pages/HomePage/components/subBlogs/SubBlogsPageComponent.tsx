@@ -31,9 +31,9 @@ const SubBlogsComponent: FC = () => {
 
   const history = useNavigate();
 
-  const ToSingle = (blogId: string) => history(`/blog/${blogId}`);
+  const ToSingle = (blogId: string) => history(`/leoblogclient/blog/${blogId}`);
 
-  const ToBlogAddPage = () => history(`/addBlog`);
+  const ToBlogAddPage = () => history(`/leoblogclient/addBlog`);
 
   const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
     setPage(value);

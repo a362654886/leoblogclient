@@ -44,7 +44,7 @@ const HomePageComponentTwo: FC = () => {
           <Button
             variant="contained"
             color="secondary"
-            onClick={() => history(`/blogs/null`)}
+            onClick={() => history(`/leoblogclient/blogs/null`)}
           >
             More
           </Button>

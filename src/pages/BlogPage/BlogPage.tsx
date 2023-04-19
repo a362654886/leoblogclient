@@ -31,7 +31,7 @@ const BlogPage: FC = () => {
     params?.id ? params?.id : ""
   );
 
-  const toBlogTypePage = (id: string) => history(`/blogs/${id}`);
+  const toBlogTypePage = (id: string) => history(`/leoblogclient/blogs/${id}`);
 
   const getContext = () => {
     return loading ? (
@@ -61,7 +61,7 @@ const BlogPage: FC = () => {
           <h4>Related Blogs</h4>
           {relatedPosts.map((relatedPost) => (
             <p>
-              <a onClick={() => history(`/blog/${relatedPost.id}`)}>
+              <a onClick={() => history(`/leoblogclient/blog/${relatedPost.id}`)}>
                 {relatedPost.title}
               </a>
             </p>
@@ -79,7 +79,7 @@ const BlogPage: FC = () => {
         <BottomNavigation
           showLabels
           value={value}
-          onChange={(event, newValue) => history(`/${subPages[newValue]}`)}
+          onChange={(event, newValue) => history(`/leoblogclient/${subPages[newValue]}`)}
         >
           <BottomNavigationAction label="Home" />
           <BottomNavigationAction label="Blogs" />
@@ -89,7 +89,7 @@ const BlogPage: FC = () => {
       {getContext()}
       <Button
         variant="outlined"
-        onClick={() => history(`/updateBlog/${params?.id ? params?.id : ""}`)}
+        onClick={() => history(`/leoblogclient/updateBlog/${params?.id ? params?.id : ""}`)}
       >
         Update
       </Button>

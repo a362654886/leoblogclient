@@ -81,7 +81,7 @@ const HomePageComponentOne: FC = () => {
             <Button
               variant="contained"
               color="secondary"
-              onClick={() => history(`/aboutMe`)}
+              onClick={() => history(`/leoblogclient/aboutMe`)}
             >
               About Me
             </Button>
